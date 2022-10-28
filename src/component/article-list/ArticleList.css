@@ -1,0 +1,40 @@
+.article-list {
+    display: flex;
+}
+
+.article-list-side {
+    flex: 1;
+}
+
+.article-list-center {
+    flex: 2;
+}
+
+.article-list-item {
+    padding: 10px;
+}
+
+.article-list-item__title {
+    margin: 0;
+}
+
+.article-category-list {
+    display: flex;
+}
+
+.article-category {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.article-category__icon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.article-category__name {
+    margin-left: 3px;
+}
